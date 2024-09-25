@@ -42,7 +42,7 @@ main {
 /* Hero Section */
 #hero {
     text-align: center;
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
     padding: 100px 20px;
     color: white;
     height: 70vh;
