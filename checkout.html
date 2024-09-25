@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalxGirl - Checkout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>GalxGirl</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="checkout.html">Cart (<span id="cart-count">0</span>)</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Checkout</h2>
+
+        <div id="cart-items">
+            <!-- Cart items will be dynamically generated here -->
+        </div>
+
+        <div id="coupon-section">
+            <label for="coupon-code">Have a coupon?</label>
+            <input type="text" id="coupon-code" placeholder="Enter coupon code">
+            <button id="apply-coupon">Apply</button>
+        </div>
+
+        <div id="total-price">
+            <p>Total: $<span id="total-amount">0</span></p>
+        </div>
+
+        <button id="checkout-button">Proceed to Checkout</button>
+    </main>
+
+    <footer>
+        <p>© 2024 GalxGirl. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

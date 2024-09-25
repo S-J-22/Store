@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalxGirl - Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>GalxGirl</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="checkout.html">Cart (<span id="cart-count">0</span>)</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+
+        <div id="filters">
+            <label for="category-filter">Filter by category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="dresses">Dresses</option>
+                <option value="tops">Tops</option>
+                <option value="bottoms">Bottoms</option>
+            </select>
+
+            <label for="price-filter">Sort by price:</label>
+            <select id="price-filter">
+                <option value="low-to-high">Low to High</option>
+                <option value="high-to-low">High to Low</option>
+            </select>
+
+            <input type="text" id="search-bar" placeholder="Search products...">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div id="product-list">
+            <div class="product">
+                <img src="images/product1.jpg">
+                <h3>Stylish Dress</h3>
+                <p>$50</p>
+                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                <button class="add-to-wishlist" data-product-id="1">Add to Wishlist</button>
+            </div>
+            <!-- Add more products here -->
+            <div class="product">
+                <img src="images/product2.jpg">
+                <h3>Blue Hoodie</h3>
+                <p>$30</p>
+                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                <button class="add-to-wishlist" data-product-id="1">Add to Wishlist</button>
+            </div>
+
+            <div class="product">
+                <img src="images/product3.jpg">
+                <h3>Cargo pants</h3>
+                <p>$90</p>
+                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+                <button class="add-to-wishlist" data-product-id="1">Add to Wishlist</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 GalxGirl. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
